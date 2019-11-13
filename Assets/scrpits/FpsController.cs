@@ -5,6 +5,7 @@ public class FpsController : MonoBehaviour
 {
 
     public GameObject camerasParent;
+    public GameObject FPSCAMERA;
     public float walkSpeed = 4f;
     public float hRotationSpeed = 100f;
     public float vRotationSpeed = 80f;
@@ -28,8 +29,8 @@ public class FpsController : MonoBehaviour
 
          {
             camerasParent.transform.Translate(0, -0.04f, 0);
-            walkSpeed = 2f;
-         }
+           
+        }
        
     }
     
